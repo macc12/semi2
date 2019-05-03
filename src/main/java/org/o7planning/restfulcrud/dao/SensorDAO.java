@@ -13,21 +13,6 @@ public class SensorDAO {
     private static final Map<String, Sensor> empMap = new HashMap<String, Sensor>();
  
     static {
-        initEmps();
-    }
- 
-    private static void initEmps() {
-       Sensor sensor = new Sensor();
-       sensor.setId("1");
-       sensor.setEjex("1");
-       sensor.setEjey("1");
-       sensor.setEjez("1");
-       sensor.setFecha("1");
-       sensor.setFecha("1");
-       sensor.setHumedad("10");
-       sensor.setPresion("10");
-       sensor.setTemperatura("10");
-        empMap.put(sensor.getId(), sensor);
         
     }
  
