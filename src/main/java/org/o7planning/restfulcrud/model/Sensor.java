@@ -25,6 +25,7 @@ public class Sensor {
     private String ejex;
     private String ejey;
     private String ejez;
+    private String actuador;
 
     public Sensor() {
     }
@@ -101,10 +102,14 @@ public class Sensor {
     public void setEjez(String ejez) {
         this.ejez = ejez;
     }
-    
-    
-    
-    
+
+    public String getActuador() {
+        return actuador;
+    }
+
+    public void setActuador(String actuador) {
+        this.actuador = actuador;
+    }
 
     
 }
